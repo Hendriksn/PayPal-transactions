@@ -1,0 +1,32 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    multi_json (1.15.0)
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
+    paypal-sdk-rest (1.7.4)
+      multi_json (~> 1.0)
+      xml-simple
+    rack (2.2.8)
+    rack-protection (3.0.6)
+      rack
+    rexml (3.2.6)
+    ruby2_keywords (0.0.5)
+    sinatra (3.0.6)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.0.6)
+      tilt (~> 2.0)
+    tilt (2.2.0)
+    xml-simple (1.1.9)
+      rexml
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  paypal-sdk-rest
+  sinatra
+
+BUNDLED WITH
+   2.4.18
